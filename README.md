@@ -13,8 +13,8 @@ RFID enabled health (pulse) monitoring
 
 # Pulse rate sensor to Arduino
 Connect Pulse Sensor to Arduino Uno Board as following :
-+ to +5V
-- to GND
+[+] to +5V
+[-] to GND
 S tO A0
 
 # RFID connection to Arduino
