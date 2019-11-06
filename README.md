@@ -1,12 +1,12 @@
 # rfid_pulse_sensor_arduino
-RFID enabled health (pulse) monitoring
+RFID enabled health (pulse) monitoring and save data to cloud
 
 # Hardware Requirements:
 1. Aruduino R3 micro controller board
 2. RFID Kit Mifare RC522 RFID Reader Module with S50 White Card and Key Ring
-3. Pulse rate sensor module
+3. Pulse rate sensor Module
+4. ESP8266 (ESP-01) Module
 3. Jumper wires
-4. Bread Board
 
 # Software Requirements:
 1. Arduino IDE - https://www.arduino.cc/en/Main/Software
@@ -42,3 +42,23 @@ Pin	Wiring to Arduino Uno
 # Caution: You must power this device to 3.3V! 5V will fry the components!!!!!
 
 Download the code, compile & verify in Arduino IDE and upload it to the board.
+
+# ESP8266 connection to Arduino
+
+ESP8266:-------------- >Arduino:
+
+GND -------------------------- GND
+
+GPIO-2 -------------------------- Not connected (open)
+
+GPIO-0 -------------------------- GND
+
+RXD -------------------------- RX
+
+TXD -------------------------- TX
+
+CHPD ------------------------ 3.3V
+
+RST -------------------------- Not connected (open) *(Read Below Instruction)
+
+VCC -------------------------- 3.3V
