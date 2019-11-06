@@ -10,6 +10,7 @@ RFID enabled health (pulse) monitoring and save data to cloud
 
 # Software Requirements:
 1. Arduino IDE - https://www.arduino.cc/en/Main/Software
+2. Thingspeak.com account & channel API key to send the data
 
 # Pulse rate sensor to Arduino
 Connect Pulse Sensor to Arduino Uno Board as following :
